@@ -50,7 +50,7 @@ function Downloadapp() {
         <div className='download_bg_img download_bg-img pt_250 pt_70'>
             <Container>
                 <Row className='align-items-center'>
-                    <Col lg={6} className=''>
+                    <Col lg={6} data-aos="fade-right">
                         <h4 className='fw-medium fs_48 text-white m-0 pb-2 text-lg-start text-center'>Download App</h4>
                         <p className='fw-lighter ff_neue fs_16 text-white mw_393 pb-lg-4 pb-3 text-lg-center text-center'><span className='d-block'>Are you a mobile groomer or just want to access your appointments and client on the go?</span>
                             Try our app, available to Premier or Premier Plus subscribers.</p>
@@ -63,8 +63,8 @@ function Downloadapp() {
             </Container>
 
             <Container className='py_download'>
-                <h4 className='ff_roboto fw-medium fs_48 text-white text-center m-0'>About Us</h4>
-                <div className='d-flex justify-content-center align-items center'>
+                <h4 className='ff_roboto fw-medium fs_48 text-white text-center m-0' data-aos="fade-down">About Us</h4>
+                <div className='d-flex justify-content-center align-items center' data-aos="fade-down">
                     <p className='ff_neue fs_16 fw-lighter text-white mw_775 text-center pb-lg-5 pb-4'> <span className="
                         d-block">Software developed by groomers for groomers</span>
                         Our team has a wealth of experience, over 30 years combined working in dog grooming salons and over 45 years combined in working in software development.</p>
@@ -72,7 +72,7 @@ function Downloadapp() {
 
                 <Slider {...settings}>
                     <div className='px_12'>
-                        <div className='about_card1 cursor_pointer cardbox'>
+                        <div className='about_card1 cursor_pointer cardbox' data-aos="zoom-in">
                             <Founded />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Founded</h2>
                             <p className='ff_neue fw-medium fs_16 text_green m-0 pt-2'>Dec 2009</p>
@@ -80,7 +80,7 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card2 position-relative cursor_pointer cardbox'>
+                        <div className='about_card2 position-relative cursor_pointer cardbox' data-aos="zoom-in">
                             <img src={productimg} alt="productimg" className='position-absolute end-0 bottom-0' />
                             <Product />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Product Launch</h2>
@@ -89,7 +89,7 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card3 cursor_pointer cardbox'>
+                        <div className='about_card3 cursor_pointer cardbox' data-aos="zoom-in">
                             <Pet />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Pet Schedule Released</h2>
                             <p className='ff_neue fw-medium fs_16 text_red m-0 pt-2'>Dec 2012</p>
@@ -97,7 +97,7 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card3 cursor_pointer cardbox'>
+                        <div className='about_card3 cursor_pointer cardbox' data-aos="zoom-in">
                             <Subscription />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Subscription Service</h2>
                             <p className='ff_neue fw-medium fs_16 text_sky m-0 pt-2'>Aug 2013</p>
@@ -105,7 +105,7 @@ function Downloadapp() {
                         </div>
                     </div>
                 </Slider>
-                <div className='d-flex justify-content-center align-items-center mt_60'>
+                <div className='d-flex justify-content-center align-items-center mt_60' data-aos="fade-down">
                     <a href='' className='view_btn ff_roboto fw-normal fs_20 text-white'>View All</a>
                 </div>
             </Container>

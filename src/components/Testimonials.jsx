@@ -45,12 +45,12 @@ function Testimonials() {
     return (
         <div>
             <Container className='py_testimonial'>
-                <h4 className='ff_roboto fw-medium fs_48 text-black text-center pb_100'>Testimonial</h4>
+                <h4 className='ff_roboto fw-medium fs_48 text-black text-center pb_100' data-aos="fade-down">Testimonial</h4>
                 <Row className='align-items-center justify-content-center'>
-                    <Col lg={6}>
+                    <Col lg={6} data-aos="fade-right">
                         <img src={Dogimg} alt="Dogimg" className='w-100 mw_577' />
                     </Col>
-                    <Col lg={6} className=''>
+                    <Col lg={6} className='' data-aos="fade-left">
                         <Slider {...settings}>
                             <div>
                                 <img src={blackdog} alt="blackdog" />

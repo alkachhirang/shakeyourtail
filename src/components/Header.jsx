@@ -34,7 +34,7 @@ function Header() {
 
         <Container className='pt_85'>
         <Row className='align-items-center justify-content-center'>
-          <Col lg={6} className='col-12 d-flex flex-column pt-5 pt-lg-0'>
+            <Col lg={6} className='col-12 d-flex flex-column pt-5 pt-lg-0'data-aos="fade-right">
             <h1 className='fs_80 fw-bold ff_roboto text-white mw_530 m-0 text-lg-start text-center'>Smart, Simple Software</h1>
             <p className='mw_558 text-white fw-medium fs_20 ff_neue m-0 pb-4 text-lg-start text-center'>Dog Grooming Software, helping to reduce 'no shows' with appointment confirmations, reminders & more.</p>
             <div className='d-flex gap-3 mt-2 justify-content-center align-items-center justify-content-lg-start'>
@@ -42,7 +42,7 @@ function Header() {
               <a href='' className='explore_btn text-white fs_20 fw-normal ff_roboto'>Explore More</a>
             </div>
           </Col>
-          <Col lg={6} className='col-12 d-flex justify-content-center align-items-center position-relative z-2'>
+            <Col lg={6} className='col-12 d-flex justify-content-center align-items-center position-relative z-2' data-aos="fade-left">
             <img src={mobile} alt="mobile" className='mw_411 w-100 '/>
             <div className='mobile_box d-flex align-items-center gap-2 mobile_box1'>
               <img src={mobileboximg1} alt="mobileboximg1" className='' />

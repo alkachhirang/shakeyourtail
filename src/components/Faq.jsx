@@ -13,7 +13,7 @@ function Faq() {
             <Container>
                 <h4 className='fs_48 fw-medium ff_roboto text-black m-0 pb-4 text-lg-start text-center'>FAQ’s</h4>
                 <Row className='align-items-center justify-content-lg-between justify-content-center pt-2'>
-                    <Col lg={7}>
+                    <Col lg={7} data-aos="fade-right">
                         <div class="accordion accordion-flush pt-3" id="accordionFlushExample" data-aos="zoom-in-up"
                             data-aos-easing="linear" data-aos-duration="1000">
                             <div class="accordion-item">
@@ -94,7 +94,7 @@ function Faq() {
                            
                         </div>
                     </Col>
-                    <Col lg={4} className='col-10 pt-4 pt-lg-0'>
+                    <Col lg={4} className='col-10 pt-4 pt-lg-0' data-aos="fade-left">
                         <div className="help_box">
                             <p className="ff_roboto fs_32 lh_111 fw-medium text-black text-center mb-0 pb-2">
                                 Need help?

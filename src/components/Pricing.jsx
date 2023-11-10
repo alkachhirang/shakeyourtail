@@ -7,15 +7,15 @@ function Pricing() {
     return (
         <div className='price-padd'>
             <Container>
-                <h4 className='mb-0 ff_roboto fs_48 fw-medium lh-111 text-center text-black'>Pricing Plan</h4>
-                <p className='mb-0 ff_neue fs_16 fw-light lh-160 text-center text-black mw-509 pt-2'>Our Subscriptions, simple, flexible and designed for your business needs.</p>
-                <div className='d-flex align-items-center justify-content-center gap-3 pt-3 card-padd'>
+                <h4 className='mb-0 ff_roboto fs_48 fw-medium lh-111 text-center text-black' data-aos="fade-down">Pricing Plan</h4>
+                <p className='mb-0 ff_neue fs_16 fw-light lh-160 text-center text-black mw-509 pt-2' data-aos="fade-down">Our Subscriptions, simple, flexible and designed for your business needs.</p>
+                <div className='d-flex align-items-center justify-content-center gap-3 pt-3 card-padd' data-aos="fade-down">
                     <p className='mb-0 ff_roboto fs_4md fw-bold text_blue5'>£ GBP</p>
                     <Togglebtn />
                     <p className='mb-0 ff_roboto fs_4md fw-normal text-black op_07'>$ USD</p>
                 </div>
                 <Row className='justify-content-center'>
-                    <Col xl={3} lg={4} sm={6} className='col-12 px-0 px-2 d-flex align-items-center justify-content-center'>
+                    <Col xl={3} lg={4} sm={6} className='col-12 px-0 px-2 d-flex align-items-center justify-content-center' data-aos="fade-up-right">
                         <div className='pricewhite-card d-flex justify-content-between flex-column'>
                             <div className=''>
                                 <h3 className='mb-0 ff_roboto fs_3md fw-medium text-black lh-111 pb-1'>Free</h3>
@@ -43,7 +43,7 @@ function Pricing() {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={3} lg={4} sm={6} className='pt-sm-0 pt-4 px-0 px-2 d-flex align-items-center justify-content-center'>
+                    <Col xl={3} lg={4} sm={6} className='pt-sm-0 pt-4 px-0 px-2 d-flex align-items-center justify-content-center' data-aos="fade-up-right">
                         <div className='pricewhite-card yell-box position-relative d-flex justify-content-between flex-column'>
                             <div className=''>
                                 <h3 className='mb-0 ff_roboto fs_3md fw-medium text-black lh-111 pb-1'>Starter Plus</h3>
@@ -80,7 +80,7 @@ function Pricing() {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={3} lg={4} sm={6} className='pt-lg-0 pt-4 px-0 px-2 d-flex align-items-center justify-content-center'>
+                    <Col xl={3} lg={4} sm={6} className='pt-lg-0 pt-4 px-0 px-2 d-flex align-items-center justify-content-center' data-aos="fade-up-right">
                         <div className='pricewhite-card yell-box position-relative d-flex justify-content-between flex-column'>
                             <div className=''>
                                 <h3 className='mb-0 ff_roboto fs_3md fw-medium text-black lh-111 pb-1'>Premier</h3>
@@ -140,7 +140,7 @@ function Pricing() {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={3} lg={4} sm={6} className='pt-xl-0 pt-4 px-0 px-2 d-flex align-items-center justify-content-center'>
+                    <Col xl={3} lg={4} sm={6} className='pt-xl-0 pt-4 px-0 px-2 d-flex align-items-center justify-content-center' data-aos="fade-up-right">
                         <div className='pricewhite-card yell-box position-relative d-flex justify-content-between flex-column'>
                             <div className=''>
                                 <h3 className='mb-0 ff_roboto fs_3md fw-medium text-black lh-111 pb-1'>Premier Plus</h3>
