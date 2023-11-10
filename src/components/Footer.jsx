@@ -39,20 +39,20 @@ function Footer() {
                             <Col lg={4} className='col-6'>
                                 <ul className='d-flex gap-2 flex-column p-0'>
                                     <li><a href='' className='ff_neue fw-medium fs_16 text-white'>Important Links</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>About Us</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>Features</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>Pricing</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>How It Work</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>New Features</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>About Us</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Features</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Pricing</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>How It Work</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>New Features</a></li>
                                 </ul>
                             </Col>
                             <Col lg={4} className=' col-6'>
                                 <ul className='d-flex gap-2 flex-column p-0'>
                                     <li><a href='' className='ff_neue fw-medium fs_16 text-white'>Other Links</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>Testimonials</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>Features</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>FAQs</a></li>
-                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8'>Contact Us</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative nav_link'>Testimonials</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Features</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>FAQs</a></li>
+                                    <li><a href='' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Contact Us</a></li>
                                 </ul>
                             </Col>
                         </div>

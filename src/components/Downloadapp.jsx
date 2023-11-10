@@ -72,7 +72,7 @@ function Downloadapp() {
 
                 <Slider {...settings}>
                     <div className='px_12'>
-                        <div className='about_card1 cursor_pointer'>
+                        <div className='about_card1 cursor_pointer cardbox'>
                             <Founded />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Founded</h2>
                             <p className='ff_neue fw-medium fs_16 text_green m-0 pt-2'>Dec 2009</p>
@@ -80,7 +80,7 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card2 position-relative cursor_pointer'>
+                        <div className='about_card2 position-relative cursor_pointer cardbox'>
                             <img src={productimg} alt="productimg" className='position-absolute end-0 bottom-0' />
                             <Product />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Product Launch</h2>
@@ -89,7 +89,7 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card3 cursor_pointer'>
+                        <div className='about_card3 cursor_pointer cardbox'>
                             <Pet />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Pet Schedule Released</h2>
                             <p className='ff_neue fw-medium fs_16 text_red m-0 pt-2'>Dec 2012</p>
@@ -97,7 +97,7 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card3 cursor_pointer'>
+                        <div className='about_card3 cursor_pointer cardbox'>
                             <Subscription />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Subscription Service</h2>
                             <p className='ff_neue fw-medium fs_16 text_sky m-0 pt-2'>Aug 2013</p>

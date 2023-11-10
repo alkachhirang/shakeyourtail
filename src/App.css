@@ -17,6 +17,19 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.cardbox {
+    transition: all 0.3s linear;
+}
+
+.cardbox:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0px 4px 25px 0px white;
+}
+
+.slick-track {
+    padding: 50px !important;
+}
+
 /*-------------------------------Navbar---------------------------- */
 .sign_btn {
     padding: 14px 30px;
@@ -206,7 +219,7 @@
 }
 
 .free_trial_btn:hover {
-    box-shadow: 0px 4px 25px 0px black !important;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.493) !important;
 }
 
 
@@ -358,10 +371,15 @@
     border: 1px solid transparent;
     border-radius: 100px;
     background: var(--secondry-5-b-95-e-0, #5B95E0);
+    transition: .3s linear !important;
+}
+
+.view_btn:hover {
+    box-shadow: 0px 4px 25px 0px white !important;
 }
 
 .py_download {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
 }
 
@@ -485,6 +503,7 @@
 .fs_13 {
     font-size: 13px;
 }
+
 .pricewhite-card {
     border-radius: 8px;
     background: var(--ffffff, #FFF);
@@ -818,13 +837,16 @@
     .left_100 {
         left: -100%;
     }
-    .position_fixed{
+
+    .position_fixed {
         position: fixed !important;
     }
-    .bg_yellow{
-    background-color: #ffc100 !important;
+
+    .bg_yellow {
+        background-color: #ffc100 !important;
     }
-    .pt_85{
+
+    .pt_85 {
         padding-top: 85px;
     }
 }
