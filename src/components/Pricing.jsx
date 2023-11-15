@@ -100,43 +100,43 @@ function Pricing() {
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Unlimited Appointments</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Unlimited Appointments</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Custom Pet Breeds</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Custom Pet Breeds</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Email Confirmations & Reminders</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Email Confirmations & Reminders</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Email Marketing</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Email Marketing</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Online Booking</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Online Booking</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Electronic Contracts</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Electronic Contracts</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Mobile App</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Mobile App</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Reporting</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Reporting</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Support</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Support</p>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-center btn_padd'>
-                                <button className='btn-get ff_roboto fs_3md fw-normal text-black w-100 d-flex align-items-center justify-content-center'>Get Started</button>
+                                <button className='btn-get ff_roboto fs_20 fw-normal text-black w-100 d-flex align-items-center justify-content-center'>Get Started</button>
                             </div>
                         </div>
                     </Col>
@@ -148,53 +148,53 @@ function Pricing() {
                                 <p className='mb-0 ff_roboto fs_2lg fw-bold text-black col-hov lh-111 pt-3 pb-3 tr-linear'>£37<span className='mb-0 fs_16 fw-normal'>/per month</span></p>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Multi User</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Multi User</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Multi Resource</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Multi Resource</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Unlimited Clients</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Unlimited Clients</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Unlimited Appointments</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Unlimited Appointments</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Custom Pet Breeds</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Custom Pet Breeds</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Email Confirmations & Reminders</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Email Confirmations & Reminders</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Email Marketing</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Email Marketing</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Online Booking</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Online Booking</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Electronic Contracts</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Electronic Contracts</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Mobile App</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Mobile App</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2 pb-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Reporting</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Reporting</p>
                                 </div>
                                 <div className='d-flex align-items-center gap-2'>
                                     <Righttickicon />
-                                    <p className='mb-0 ff_neue fs_13 fw-light lh-130 ls-65 text-black op_07'>Support</p>
+                                    <p className='mb-0 ff_neue fs_13 fw-light lh-1 ls-65 text-black op_07'>Support</p>
                                 </div>
-                                <p className='mb-0 ff_neue fs_13 fw-bold lh-130 ls-65 text-black pt-3'>100 SMS Credits</p>
+                                <p className='mb-0 ff_neue fs_13 fw-bold lh-1 ls-65 text-black pt-3'>100 SMS Credits</p>
                             </div>
                             <div className='d-flex justify-content-center btn_padd'>
                                 <button className='btn-get ff_roboto fs_3md fw-normal text-black w-100 d-flex align-items-center justify-content-center'>Get Started</button>

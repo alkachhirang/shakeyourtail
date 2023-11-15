@@ -396,7 +396,7 @@
 }
 
 .py_download {
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -607,7 +607,7 @@
     background: var(--ffffff, #FFF);
     border: 1px solid #fff;
     box-shadow: 0px 10px 32px 0px rgba(91, 149, 224, 0.13);
-    height: 690px;
+    height: 730px;
     max-width: 300px;
     padding-top: 33px;
     padding-left: 18px;
@@ -804,6 +804,11 @@
         padding-bottom: 90px;
     }
 
+    .py_download {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
     .py_experience {
         padding-top: 180px;
     }
@@ -906,6 +911,21 @@
 
     .mw_480 {
         max-width: 480px;
+    }
+
+    .pricewhite-card {
+        border-radius: 8px;
+        background: var(--ffffff, #FFF);
+        border: 1px solid #fff;
+        box-shadow: 0px 10px 32px 0px rgba(91, 149, 224, 0.13);
+        height: 690px;
+        max-width: 300px;
+        padding-top: 33px;
+        padding-left: 18px;
+        padding-right: 9px;
+        width: 100%;
+        transition: all .3s linear;
+        overflow: hidden;
     }
 }
 
