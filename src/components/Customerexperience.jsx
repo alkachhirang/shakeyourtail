@@ -5,7 +5,6 @@ import { FeatureSchedule } from '../components/Iconimg';
 import { Featureclient } from '../components/Iconimg';
 import { Report } from '../components/Iconimg';
 import { Services } from '../components/Iconimg';
-import featureclientimg from '../assets/images/png/feature-client-img.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";

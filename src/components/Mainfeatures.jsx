@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Client } from '../components/Iconimg';
 import { Notifications } from '../components/Iconimg';
 import { Schedule } from '../components/Iconimg';
-import Sheduleimg from '../assets/images/png/shedule-img.png';
 import { Orangeflower, Blueflower, Lightorangeflower } from "../components/Iconimg";
 
 function Mainfeatures() {
