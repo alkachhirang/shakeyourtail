@@ -25,6 +25,12 @@
     transform: scale(1.05) !important;
     box-shadow: 0px 4px 25px 0px white;
 }
+.box{
+    transition: all 0.3s linear;
+}
+.box:hover{
+    transform: scale(1.05) !important;
+}
 
 .slick-track {
     padding: 50px !important;
@@ -188,6 +194,15 @@
     border-radius: 14px;
     background: var(--ffffff, #FFF);
     box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
+}
+.client_card:hover .purple-flower {
+    opacity: 1;
+}
+.notification_card:hover .purple-flower {
+    opacity: 1;
+}
+.schedule_card:hover .purple-flower {
+    opacity: 1;
 }
 
 .py_mainfeatures {

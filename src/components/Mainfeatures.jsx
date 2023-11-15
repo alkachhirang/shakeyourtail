@@ -4,6 +4,7 @@ import { Client } from '../components/Iconimg';
 import { Notifications } from '../components/Iconimg';
 import { Schedule } from '../components/Iconimg';
 import Sheduleimg from '../assets/images/png/shedule-img.png';
+import { Orangeflower, Blueflower, Lightorangeflower } from "../components/Iconimg";
 
 function Mainfeatures() {
     return (
@@ -11,25 +12,33 @@ function Mainfeatures() {
             <Container>
                 <Row className='align-items-center flex-column-reverse flex-lg-row '>
                     <Col lg={3} className='col-12' data-aos="fade-right">
-                            <div className='client_card mb-4 cursor_pointer'>
-                                <Client />
-                                <h3 className='ff_roboto fw-medium fs_20 text-black m-0 pb-2 pt-2'>Clients & Pets</h3>
-                                <p className='ff_neue fs_16 fw-lighter text_grey m-0 lh_150 mw_240'>Managing your Clients and their Pets is effortless; Record their details, add emergency contacts, Medical Notes, Grooming notes, view their appointment history, set alerts and much more…</p>
+                        <div className='client_card mb-4 cursor_pointer position-relative box'>
+                            <div className='position-absolute purple-flower'>
+                                <Blueflower />
                             </div>
-                            <div className='notification_card mt-2 mb-4 mb-lg-0 cursor_pointer'>
-                                <Notifications />
-                                <h3 className='ff_roboto fw-medium fs_20 text-black m-0 pb-2 pt-2'>Notifications & Reminders</h3>
-                                <p className='ff_neue fs_16 fw-lighter text_grey m-0 lh_150 mw_240'>We’ll take the strain by automatically sending your Clients, their appointment reminders, confirmations, ‘Miss You’s and No Shows, by text or email.</p>
+                            <Client />
+                            <h3 className='ff_roboto fw-medium fs_20 text-black m-0 pb-2 pt-2'>Clients & Pets</h3>
+                            <p className='ff_neue fs_16 fw-lighter text_grey m-0 lh_150 mw_240'>Managing your Clients and their Pets is effortless; Record their details, add emergency contacts, Medical Notes, Grooming notes, view their appointment history, set alerts and much more…</p>
+                        </div>
+                        <div className='notification_card mt-2 mb-4 mb-lg-0 cursor_pointer position-relative box'>
+                            <div className='position-absolute purple-flower'>
+                                <Orangeflower />
                             </div>
-                        </Col>
+                            <Notifications />
+                            <h3 className='ff_roboto fw-medium fs_20 text-black m-0 pb-2 pt-2'>Notifications & Reminders</h3>
+                            <p className='ff_neue fs_16 fw-lighter text_grey m-0 lh_150 mw_240'>We’ll take the strain by automatically sending your Clients, their appointment reminders, confirmations, ‘Miss You’s and No Shows, by text or email.</p>
+                        </div>
+                    </Col>
                     <Col lg={3} className='col-md-12' data-aos="fade-right">
-                        <div className='schedule_card mb-4 mt-2 cursor_pointer position-relative'>
-                            <img src={Sheduleimg} alt="Sheduleimg" className='position-absolute shedule_img' />
-                                <Schedule />
-                                <h3 className='ff_roboto fw-medium fs_20 text-black m-0 pb-2 pt-2'>Schedule</h3>
-                                <p className='ff_neue fs_16 fw-lighter text_grey m-0 lh_150 mw_240'>Powerful and easy to use, book appointments to your team members and view your colour coded schedule, ‘at a glance’.</p>
+                        <div className='schedule_card mb-4 mt-2 cursor_pointer position-relative box'>
+                            <div className='position-absolute purple-flower'>
+                                <Lightorangeflower />
                             </div>
-                        </Col>
+                            <Schedule />
+                            <h3 className='ff_roboto fw-medium fs_20 text-black m-0 pb-2 pt-2'>Schedule</h3>
+                            <p className='ff_neue fs_16 fw-lighter text_grey m-0 lh_150 mw_240'>Powerful and easy to use, book appointments to your team members and view your colour coded schedule, ‘at a glance’.</p>
+                        </div>
+                    </Col>
                     <Col lg={6} className='d-flex flex-column justify-content-end align-items-center pb-5 pb-lg-0' data-aos="fade-left">
                         <div className=''>
                             <h4 className='ff_roboto fs_48 fw-medium text-black text-lg-start text-center'>Main Features</h4>
