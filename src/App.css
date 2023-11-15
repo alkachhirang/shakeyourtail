@@ -25,10 +25,12 @@
     transform: scale(1.05) !important;
     box-shadow: 0px 4px 25px 0px white;
 }
-.box{
+
+.box {
     transition: all 0.3s linear;
 }
-.box:hover{
+
+.box:hover {
     transform: scale(1.05) !important;
 }
 
@@ -132,7 +134,7 @@
 }
 
 .mobile_box1 {
-    right: 18%;
+    right:0;
     top: 32%;
 }
 
@@ -148,7 +150,7 @@
 }
 
 .img_box1 {
-    left: 15%;
+    left: 0;
     bottom: 26%;
 }
 
@@ -195,18 +197,21 @@
     background: var(--ffffff, #FFF);
     box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
 }
+
 .client_card:hover .purple-flower {
     opacity: 1;
 }
+
 .notification_card:hover .purple-flower {
     opacity: 1;
 }
+
 .schedule_card:hover .purple-flower {
     opacity: 1;
 }
 
 .py_mainfeatures {
-    padding-top: 90px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -321,15 +326,19 @@
     box-shadow: 0px 6px 39px 0px rgba(0, 0, 0, 0.07);
     height: 100%;
 }
+
 .feature_box1:hover .purple-flower {
     opacity: 1;
 }
+
 .feature_box2:hover .purple-flower {
     opacity: 1;
 }
+
 .feature_box3:hover .purple-flower {
     opacity: 1;
 }
+
 .feature_box4:hover .purple-flower {
     opacity: 1;
 }
@@ -729,8 +738,8 @@
 }
 
 .price-padd {
-    padding-top: 118px;
-    padding-bottom: 182px;
+    padding-top: 80px;
+    padding-bottom: 95px;
 }
 
 .tr-linear {
@@ -845,6 +854,11 @@
 
     .download_bg-img {
         background-color: transparent;
+    }
+
+    .price-padd {
+        padding-top: 118px;
+        padding-bottom: 182px;
     }
 
     .py_feature {
