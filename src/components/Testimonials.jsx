@@ -54,7 +54,7 @@ function Testimonials() {
                     </Col>
                     <Col lg={6} className='' data-aos="fade-left">
                         <Slider {...settings}>
-                            <div>
+                            <div className='px-2'>
                                 <img src={blackdog} alt="blackdog" />
                                 <p className='ff_neue fs_20 fw-lighter text_grey mw_533 m-0 pt-3 pb-2'>“ShakeYourTail is amazing, helping me easily manage my appointments and reduce my business admin with automated confirmations and reminders.”</p>
                                 <img src={fivestar} alt="fivestar" />
@@ -63,7 +63,7 @@ function Testimonials() {
                                 <LeftArrow />
                                 <RightArrow />
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <img src={blackdog} alt="blackdog" />
                                 <p className='ff_neue fs_20 fw-lighter text_grey mw_533 m-0 pt-3 pb-2'>“ShakeYourTail is amazing, helping me easily manage my appointments and reduce my business admin with automated confirmations and reminders.”</p>
                                 <img src={fivestar} alt="fivestar" />
@@ -72,7 +72,7 @@ function Testimonials() {
                                 <LeftArrow />
                                 <RightArrow />
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <img src={blackdog} alt="blackdog" />
                                 <p className='ff_neue fs_20 fw-lighter text_grey mw_533 m-0 pt-3 pb-2'>“ShakeYourTail is amazing, helping me easily manage my appointments and reduce my business admin with automated confirmations and reminders.”</p>
                                 <img src={fivestar} alt="fivestar" />

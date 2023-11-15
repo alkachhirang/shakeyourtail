@@ -62,7 +62,7 @@ function Footer() {
             <div className='footerline pt-5'>
             </div>
             <a href='https://www.petstar.co.uk/#' target='blank'>
-                <p className='text-center ff_neue fs_16 fw-lighter text-white py-3'>Made with Powered by Petstar -<span className='text-decoration-underline'> DOG GROOMING BUSINESSES & PET SERVICES</span></p>
+                <p className='text-center ff_neue fs_16 fw-lighter text-white py-3 m-0'>Made with Powered by Petstar -<span className='text-decoration-underline'> DOG GROOMING BUSINESSES & PET SERVICES</span></p>
             </a>
         </div>
     )
