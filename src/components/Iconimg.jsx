@@ -429,3 +429,35 @@ export const Done = () => {
         </svg>
     );
 };
+export const Purpleflower = () => {
+    return (
+        <svg width="88" height="86" viewBox="0 0 88 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.1" cx="44.1803" cy="71.444" r="39.7803" transform="rotate(6.74992 44.1803 71.444)" fill="#9955AE" />
+            <circle opacity="0.1" cx="82.4096" cy="56.6" r="48" transform="rotate(6.74992 82.4096 56.6)" fill="#9955AE" />
+        </svg>
+    );
+};
+export const Greenflower = () => {
+    return (
+        <svg width="88" height="86" viewBox="0 0 88 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.1" cx="44.1803" cy="71.444" r="39.7803" transform="rotate(6.74992 44.1803 71.444)" fill="#C8D700" />
+            <circle opacity="0.1" cx="82.4096" cy="56.6" r="48" transform="rotate(6.74992 82.4096 56.6)" fill="#C8D700" />
+        </svg>
+    );
+};
+export const Orangeflower = () => {
+    return (
+        <svg width="88" height="86" viewBox="0 0 88 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.1" cx="44.1803" cy="71.444" r="39.7803" transform="rotate(6.74992 44.1803 71.444)" fill="#EC8772" />
+            <circle opacity="0.1" cx="82.4096" cy="56.6" r="48" transform="rotate(6.74992 82.4096 56.6)" fill="#EC8772" />
+        </svg>
+    );
+};
+export const Blueflower = () => {
+    return (
+        <svg width="88" height="86" viewBox="0 0 88 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.1" cx="44.1803" cy="71.444" r="39.7803" transform="rotate(6.74992 44.1803 71.444)" fill="#92DCE0" />
+            <circle opacity="0.1" cx="82.4096" cy="56.6" r="48" transform="rotate(6.74992 82.4096 56.6)" fill="#92DCE0"/>
+        </svg>
+    );
+};

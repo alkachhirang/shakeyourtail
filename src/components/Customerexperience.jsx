@@ -9,6 +9,7 @@ import featureclientimg from '../assets/images/png/feature-client-img.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Purpleflower, Greenflower, Orangeflower, Blueflower } from "../components/Iconimg";
 
 
 function Customerexperience() {
@@ -77,7 +78,10 @@ function Customerexperience() {
         </div>
         <Slider {...settings}>
           <div className='px_12'>
-            <div className='feature_box1 cursor_pointer cardbox' data-aos="zoom-in">
+            <div className='feature_box1 cursor_pointer cardbox position-relative' data-aos="zoom-in">
+              <div className='position-absolute purple-flower'>
+                <Greenflower />
+              </div>
               <FeatureSchedule />
               <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Schedule</h2>
               <p className='ff_neue fs_16 fw-lighter text_grey m-0 pt-2'>Powerful and easy to use, book appointments for your team members and view a colour coded schedule, at a glance.</p>
@@ -86,14 +90,19 @@ function Customerexperience() {
           </div>
           <div className='px_12'>
             <div className='feature_box2 position-relative cursor_pointer cardbox' data-aos="zoom-in">
-              <img src={featureclientimg} alt="featureclientimg" className='position-absolute end-0 bottom-0' />
+              <div className='position-absolute purple-flower'>
+                <Purpleflower />
+              </div>
               <Featureclient />
               <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Clients & Pets</h2>
               <p className='ff_neue fs_16 fw-lighter text_grey m-0 pt-2 mw_227'>Managing your Clients is effortless; Record Client details, view appointment history, breed, photos, medical notes, vet contact, groom note Client loyalty and more.</p>
             </div>
           </div>
           <div className='px_12'>
-            <div className='feature_box3 cursor_pointer cardbox' data-aos="zoom-in">
+            <div className='feature_box3 cursor_pointer cardbox position-relative' data-aos="zoom-in">
+              <div className='position-absolute purple-flower'>
+                <Orangeflower />
+              </div>
               <Report />
               <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Reports</h2>
               <p className='ff_neue fs_16 fw-lighter text_grey m-0 pt-2'>Report and export client details, appointments, marketing, no shows and more..</p>
@@ -101,7 +110,10 @@ function Customerexperience() {
             </div>
           </div>
           <div className='px_12'>
-            <div className='feature_box4 cursor_pointer cardbox' data-aos="zoom-in">
+            <div className='feature_box4 cursor_pointer cardbox position-relative' data-aos="zoom-in">
+              <div className='position-absolute purple-flower'>
+                <Blueflower />
+              </div>
               <Services />
               <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Schedule</h2>
               <p className='ff_neue fs_16 fw-lighter text_grey m-0 pt-2 mw_227'>Powerful and easy to use, book appointments for your team members and view a colour coded schedule, at a glance.</p>

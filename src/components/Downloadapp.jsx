@@ -10,7 +10,7 @@ import { Subscription } from '../components/Iconimg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import productimg from '../assets/images/png/product-img.png';
+import { Purpleflower, Greenflower, Orangeflower, Blueflower } from "../components/Iconimg";
 
 function Downloadapp() {
     const settings = {
@@ -72,7 +72,10 @@ function Downloadapp() {
 
                 <Slider {...settings}>
                     <div className='px_12'>
-                        <div className='about_card1 cursor_pointer cardbox' data-aos="zoom-in">
+                        <div className='about_card1 cursor_pointer cardbox position-relative' data-aos="zoom-in">
+                            <div className='position-absolute purple-flower'>
+                                <Greenflower/>
+                            </div>
                             <Founded />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Founded</h2>
                             <p className='ff_neue fw-medium fs_16 text_green m-0 pt-2'>Dec 2009</p>
@@ -81,7 +84,9 @@ function Downloadapp() {
                     </div>
                     <div className='px_12'>
                         <div className='about_card2 position-relative cursor_pointer cardbox' data-aos="zoom-in">
-                            <img src={productimg} alt="productimg" className='position-absolute end-0 bottom-0' />
+                            <div className='position-absolute purple-flower'>
+                                <Purpleflower/>
+                            </div>
                             <Product />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Product Launch</h2>
                             <p className='ff_neue fw-medium fs_16 text_purple m-0 pt-2'>July 2010</p>
@@ -89,7 +94,10 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card3 cursor_pointer cardbox' data-aos="zoom-in">
+                        <div className='about_card3 cursor_pointer cardbox position-relative' data-aos="zoom-in">
+                            <div className='position-absolute purple-flower'>
+                                <Orangeflower />
+                            </div>
                             <Pet />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Pet Schedule Released</h2>
                             <p className='ff_neue fw-medium fs_16 text_red m-0 pt-2'>Dec 2012</p>
@@ -97,7 +105,10 @@ function Downloadapp() {
                         </div>
                     </div>
                     <div className='px_12'>
-                        <div className='about_card3 cursor_pointer cardbox' data-aos="zoom-in">
+                        <div className='about_card3 cursor_pointer cardbox position-relative' data-aos="zoom-in">
+                            <div className='position-absolute purple-flower'>
+                                <Blueflower />
+                            </div>
                             <Subscription />
                             <h2 className='ff_roboto fs_20 fw-medium text-black m-0 pt-2'>Subscription Service</h2>
                             <p className='ff_neue fw-medium fs_16 text_sky m-0 pt-2'>Aug 2013</p>
