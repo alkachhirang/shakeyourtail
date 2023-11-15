@@ -8,11 +8,13 @@
     text-decoration: none !important;
     list-style-type: none !important;
 }
+
 body,
-html{
+html {
     overflow-x: hidden;
 }
-.mw_411{
+
+.mw_411 {
     max-width: 411px;
 }
 
@@ -28,26 +30,10 @@ html{
     transition: all 0.3s linear;
 }
 
-.cardbox:hover {
-    transform: scale(1.05) !important;
-    box-shadow: 0px 4px 25px 0px white;
-}
-
-.box {
-    transition: all 0.3s linear;
-}
-
-.box:hover {
-    transform: scale(1.05) !important;
-}
-
-.slick-track {
-    padding: 50px !important;
-}
 
 /*-------------------------------Navbar---------------------------- */
 .sign_btn {
-    padding: 14px 30px;
+    padding: 11px 33px;
     border: 1px solid transparent;
     border-radius: 100px;
     background: var(--secondry-5-b-95-e-0, #5B95E0);
@@ -95,6 +81,13 @@ html{
 .nav_link:hover::after {
     width: 100%;
 }
+/*--------------------- Back-TO-TOP------------------------- */
+.position_fix{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    cursor: pointer !important;
+}
 
 /*--------------------------------Header--------------------------- */
 .header_bg_img {
@@ -141,7 +134,7 @@ html{
 }
 
 .mobile_box1 {
-    right:0;
+    right: 0;
     top: 32%;
 }
 
@@ -247,7 +240,7 @@ html{
 
 .py_customer {
     padding-top: 17px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .py_experience {
@@ -469,6 +462,17 @@ html{
     padding-top: 80px;
     padding-bottom: 100px;
 }
+
+.arrow_btn {
+    transition: all .3s linear;
+    opacity: 0.3;
+}
+
+.arrow_btn:hover,
+.arrow_btn:focus {
+    opacity: 1;
+}
+
 
 .pb_50 {
     padding-bottom: 50px;
@@ -859,6 +863,11 @@ html{
         height: 100%;
     }
 
+    .py_customer {
+        padding-top: 17px;
+        padding-bottom: 50px;
+    }
+
     .download_bg-img {
         background-color: transparent;
     }
@@ -892,7 +901,7 @@ html{
     }
 
     .py_work {
-        padding-top: 150px;
+        padding-top: 80px;
         padding-bottom: 100px;
     }
 
@@ -906,12 +915,14 @@ html{
     }
 
     .work-text1 {
-        bottom: 23px;
+        bottom: 16px;
+        left: unset !important;
         right: -4px !important;
     }
 
     .work-text2 {
-        bottom: 18%;
+        bottom: 14%;
+        left: unset !important;
         right: 5% !important;
     }
 
@@ -969,12 +980,12 @@ html{
     }
 
     .mobile_box1 {
-        right: 8%;
+        right: -7%;
         top: 32%;
     }
 
     .img_box1 {
-        left: 10%;
+        left: -13%;
         bottom: 26%;
     }
 

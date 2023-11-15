@@ -13,7 +13,7 @@ function Header() {
     <div className='overflow-hidden'>
       <div className='header_bg_img pb-5'>
         <Container>
-          <div className='d-flex align-items-center justify-content-between py-3 position_fixed start-0 end-0 z-3 px-3 px-sm-5 bg_yellow'>
+          <div className='d-flex align-items-center justify-content-between py-3 position_fixed start-0 end-0 z-3 px-3 px-sm-5 px-lg-0 bg_yellow'>
             <div>
               <img src={Navlogo} alt="Navlogo" className='w-100 mw_175' />
             </div>

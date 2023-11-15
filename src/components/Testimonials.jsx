@@ -43,6 +43,7 @@ function Testimonials() {
             },
         ],
     };
+    const slider = React.useRef(null);
     return (
         <div id='freetrial' className='position-relative'>
             <img src={Greenellips} alt="Greenellips" className='position-absolute end-0 bottom-0 d-none d-md-block' />
@@ -53,35 +54,33 @@ function Testimonials() {
                         <img src={Dogimg} alt="Dogimg" className='w-100 mw_577' />
                     </Col>
                     <Col lg={6} className='' data-aos="fade-left">
-                        <Slider {...settings}>
-                            <div className='px-2'>
+                        <Slider ref={slider}{...settings}>
+                            <div className='px-3'>
                                 <img src={blackdog} alt="blackdog" />
                                 <p className='ff_neue fs_20 fw-lighter text_grey mw_533 m-0 pt-3 pb-2'>“ShakeYourTail is amazing, helping me easily manage my appointments and reduce my business admin with automated confirmations and reminders.”</p>
                                 <img src={fivestar} alt="fivestar" />
                                 <p className='ff_neue fw-bold fs_30 text_blue m-0 pt-3'>Mathew Spry</p>
                                 <p className='ff_neue fw-medium fs_18 text-black m-0 pb-4'>Director @ BArkingham, UK</p>
-                                <LeftArrow />
-                                <RightArrow />
                             </div>
-                            <div className='px-2'>
+                            <div className='px-3'>
                                 <img src={blackdog} alt="blackdog" />
                                 <p className='ff_neue fs_20 fw-lighter text_grey mw_533 m-0 pt-3 pb-2'>“ShakeYourTail is amazing, helping me easily manage my appointments and reduce my business admin with automated confirmations and reminders.”</p>
                                 <img src={fivestar} alt="fivestar" />
                                 <p className='ff_neue fw-bold fs_30 text_blue m-0 pt-3'>Mathew Spry</p>
                                 <p className='ff_neue fw-medium fs_18 text-black m-0 pb-4'>Director @ BArkingham, UK</p>
-                                <LeftArrow />
-                                <RightArrow />
                             </div>
-                            <div className='px-2'>
+                            <div className='px-3'>
                                 <img src={blackdog} alt="blackdog" />
                                 <p className='ff_neue fs_20 fw-lighter text_grey mw_533 m-0 pt-3 pb-2'>“ShakeYourTail is amazing, helping me easily manage my appointments and reduce my business admin with automated confirmations and reminders.”</p>
                                 <img src={fivestar} alt="fivestar" />
                                 <p className='ff_neue fw-bold fs_30 text_blue m-0 pt-3'>Mathew Spry</p>
                                 <p className='ff_neue fw-medium fs_18 text-black m-0 pb-4'>Director @ BArkingham, UK</p>
-                                    <LeftArrow />
-                                    <RightArrow />
                             </div>
                         </Slider>
+                        <div className='px-3 d-flex position-absolute align-items-center gap-1'>
+                            <button onClick={() => slider?.current?.slickPrev()} className='border-0  bg-transparent arrow_btn'> <LeftArrow /></button>
+                            <button onClick={() => slider?.current?.slickNext()} className='border-0  bg-transparent arrow_btn'>  <RightArrow /></button>
+                        </div>
                     </Col>
                 </Row>
             </Container>
