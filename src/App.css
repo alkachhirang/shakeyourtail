@@ -240,7 +240,7 @@ html{
     background-image: url(./assets/images/png/customer_bg_img.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     object-fit: cover !important;
     height: 100%;
 }
@@ -251,7 +251,7 @@ html{
 }
 
 .py_experience {
-    padding-top: 122px;
+    padding-top: 50px;
 }
 
 .free_trial_btn {
