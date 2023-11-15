@@ -59,6 +59,7 @@ function Header() {
                     <p className='m-0 ff_neue fs_8 fw-lighter text-black'>CEO</p>
                   </div>
                 </div>
+                <div />
             </Col>
           </Row>
         </Container>
