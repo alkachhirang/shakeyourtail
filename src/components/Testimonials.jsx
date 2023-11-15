@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { LeftArrow } from '../components/Iconimg';
 import { RightArrow } from '../components/Iconimg';
+import Greenellips from '../assets/images/png/green-ellips.png';
 function Testimonials() {
     const settings = {
         dots: false,
@@ -43,9 +44,10 @@ function Testimonials() {
         ],
     };
     return (
-        <div>
+        <div id='freetrial' className='position-relative'>
+            <img src={Greenellips} alt="Greenellips" className='position-absolute end-0 bottom-0 d-none d-md-block' />
             <Container className='py_testimonial'>
-                <h4 className='ff_roboto fw-medium fs_48 text-black text-center pb_100' data-aos="fade-down">Testimonial</h4>
+                <h4 className='ff_roboto fw-medium fs_48 text-black text-center pb_50' data-aos="fade-down">Testimonial</h4>
                 <Row className='align-items-center justify-content-center'>
                     <Col lg={6} data-aos="fade-right">
                         <img src={Dogimg} alt="Dogimg" className='w-100 mw_577' />

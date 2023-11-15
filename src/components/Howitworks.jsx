@@ -34,7 +34,9 @@ function Howitworks() {
                                 </p>
                                 <div className="timeline_bell1">
                                     <img src={Timelinebell1} alt="Timelinebell1" />
+
                                 </div>
+                                <p className='fs_76 ff_neue fw-bold lh_150 op_12 text_yell position-absolute work-text mb-0'>01</p>
                             </div>
                         </div>
                         <div className="Container1 d-flex justify-content-lg-center justify-content-start">
@@ -49,6 +51,7 @@ function Howitworks() {
                                 <div className="timeline_bell1">
                                     <img src={Timelinebell2} alt="Timelinebell2 " />
                                 </div>
+                                <p className='fs_76 ff_neue fw-bold lh_150 op_12 text_Sky position-absolute work-text mb-0'>02</p>
                             </div>
                         </div>
                         <div className="Container1 d-flex justify-content-lg-center justify-content-start">
@@ -63,6 +66,7 @@ function Howitworks() {
                                 <div className="timeline_bell2">
                                     <img src={Timelinebell3} alt="Timelinebell3" />
                                 </div>
+                                <p className='fs_76 ff_neue fw-bold lh_150 op_12 text_Blue position-absolute work-text1 mb-0'>03</p>
                             </div>
                         </div>
                         <div className="Container1 d-flex justify-content-lg-center justify-content-start">
@@ -77,6 +81,7 @@ function Howitworks() {
                                 <div className="timeline_bell2">
                                     <img src={Timelinebell4} alt="Timelinebell4" />
                                 </div>
+                                <p className='fs_76 ff_neue fw-bold lh_150 op_12 text_Red1 position-absolute work-text2 mb-0'>04</p>
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import { Togglebtn } from '../components/Iconimg';
 
 function Pricing() {
     return (
-        <div className='price-padd'>
+        <div id='pricing' className='price-padd'>
             <Container>
                 <h4 className='mb-0 ff_roboto fs_48 fw-medium lh-111 text-center text-black' data-aos="fade-down">Pricing Plan</h4>
                 <p className='mb-0 ff_neue fs_16 fw-light lh-160 text-center text-black mw-509 pt-2' data-aos="fade-down">Our Subscriptions, simple, flexible and designed for your business needs.</p>

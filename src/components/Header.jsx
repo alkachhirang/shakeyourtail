@@ -18,10 +18,10 @@ function Header() {
             <img src={Navlogo} alt="Navlogo" className='w-100 mw_175' />
           </div>
           <ul className={`${show ? "left_100" : "left_0"} nav_bar`}>
-            <li className='position-relative'><a href='' className='fs_16 ff_neue fw-medium text-white nav_link'>Home</a></li>
-            <li className='position-relative'><a href='' className='fs_16 ff_neue fw-medium text-white nav_link'>Features</a></li>
-            <li className='position-relative'><a href='' className='fs_16 ff_neue fw-medium text-white nav_link'>Pricing</a></li>
-            <li className='position-relative'><a href='' className='fs_16 ff_neue fw-medium text-white nav_link'>Free Trial</a></li>
+              <li className='position-relative'><a href='#home' onClick={() => setshow(!show)} className='fs_16 ff_neue fw-medium text-white nav_link'>Home</a></li>
+              <li className='position-relative'><a href='#features' onClick={() => setshow(!show)} className='fs_16 ff_neue fw-medium text-white nav_link'>Features</a></li>
+              <li className='position-relative'><a href='#pricing' onClick={() => setshow(!show)} className='fs_16 ff_neue fw-medium text-white nav_link'>Pricing</a></li>
+              <li className='position-relative'><a href='#freetrial' onClick={() => setshow(!show)} className='fs_16 ff_neue fw-medium text-white nav_link'>Free Trial</a></li>
             <a href='' className='sign_btn ff_roboto fs_20 fw-normal text-white text-nowrap'>Sign In</a>
           </ul>
           <div onClick={() => setshow(!show)} className={`${show ? "" : "cross"} navline`}>
@@ -32,7 +32,7 @@ function Header() {
         </div>
       </Container>
 
-        <Container className='pt_85'>
+        <Container id='home' className='pt_85'>
         <Row className='align-items-center justify-content-center'>
             <Col lg={6} className='col-12 d-flex flex-column pt-5 pt-lg-0'data-aos="fade-right">
             <h1 className='fs_80 fw-bold ff_roboto text-white mw_530 m-0 text-lg-start text-center'>Smart, Simple Software</h1>
@@ -44,7 +44,7 @@ function Header() {
           </Col>
             <Col lg={6} className='col-12 d-flex justify-content-center align-items-center position-relative z-2' data-aos="fade-left">
             <img src={mobile} alt="mobile" className='mw_411 w-100 '/>
-            <div className='mobile_box d-flex align-items-center gap-2 mobile_box1'>
+            <div className='mobile_box d-flex align-items-center gap-2 mobile_box1' >
               <img src={mobileboximg1} alt="mobileboximg1" className='' />
               <div>
                 <p className='ff_neue fw-bold fs_12 text-black m-0'>Esther Howard</p>

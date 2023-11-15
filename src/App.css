@@ -99,7 +99,7 @@
 }
 
 .free_btn:hover {
-    box-shadow: 0px 4px 25px 0px white;
+    box-shadow: 0px 4px 25px 0px #5b95e0d8;
 }
 
 .explore_btn {
@@ -115,6 +115,7 @@
 }
 
 .mobile_box {
+    animation: pulse 3000ms ease-in-out infinite;
     padding: 10px 27px 11px 13px;
     position: absolute;
     border-radius: 10px;
@@ -130,6 +131,7 @@
 }
 
 .img_box {
+    animation: pulse 3000ms ease-in-out infinite;
     padding: 18px 20px;
     position: absolute;
     border-radius: 10px;
@@ -150,6 +152,20 @@
 
 .cursor_pointer {
     cursor: pointer !important;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(0px);
+    }
+
+    70% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 /*--------------------------------Main-Features----------------------*/
@@ -219,11 +235,12 @@
 }
 
 .free_trial_btn:hover {
-    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.493) !important;
+    box-shadow: 0px 4px 25px 0px rgba(255, 255, 0, 0.877) !important;
 }
 
 
 .white_imgbox {
+    animation: pulse 3000ms ease-in-out infinite;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.30);
@@ -389,8 +406,8 @@
     padding-bottom: 100px;
 }
 
-.pb_100 {
-    padding-bottom: 100px;
+.pb_50 {
+    padding-bottom: 50px;
 }
 
 .text_blue {
@@ -407,6 +424,45 @@
     background: linear-gradient(90deg, #FFC100 0%, #45C6CE 34.04%, #5B95E0 67.55%, #F2205C 100%);
     left: 0;
     right: 0;
+}
+
+.work-text {
+    bottom: -19px;
+    right: -3px;
+}
+
+.work-text1 {
+    bottom: -6px;
+    left: 10%;
+}
+
+.work-text2 {
+    bottom: 18%;
+    left: 7%;
+}
+
+.op_12 {
+    opacity: 0.12;
+}
+
+.fs_76 {
+    font-size: 76px;
+}
+
+.text_yell {
+    color: #FFC100;
+}
+
+.text_Sky {
+    color: #45C6CE;
+}
+
+.text_Blue {
+    color: #5B95E0;
+}
+
+.text_Red1 {
+    color: #F2205C;
 }
 
 .Container1 {
@@ -434,7 +490,8 @@
     padding-top: 90px;
     padding-bottom: 80px;
 }
-.opacity_07{
+
+.opacity_07 {
     opacity: 0.7 !important;
 }
 
@@ -759,13 +816,29 @@
     .pb_faq {
         padding-bottom: 250px;
     }
-        .py_work {
-            padding-top: 150px;
-            padding-bottom: 100px;
-        }
+
+    .py_work {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
 
     .mw_585 {
         max-width: 585px;
+    }
+
+    .work-text {
+        bottom: 17px;
+        right: -41px;
+    }
+
+    .work-text1 {
+        bottom: 23px;
+        right: -4px !important;
+    }
+
+    .work-text2 {
+        bottom: 18%;
+        right: 5% !important;
     }
 
     .mw_172 {

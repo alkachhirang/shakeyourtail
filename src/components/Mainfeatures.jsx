@@ -7,7 +7,7 @@ import Sheduleimg from '../assets/images/png/shedule-img.png';
 
 function Mainfeatures() {
     return (
-        <div className='bg-white py_mainfeatures'>
+        <div id='features' className='bg-white py_mainfeatures'>
             <Container>
                 <Row className='align-items-center flex-column-reverse flex-lg-row '>
                     <Col lg={3} className='col-12' data-aos="fade-right">
