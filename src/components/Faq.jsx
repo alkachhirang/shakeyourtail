@@ -25,7 +25,7 @@ function Faq() {
                                     </button>
                                 </h2>
                                 <div id="flush-collapseOne"
-                                    class="accordion-collapse collapse ff_neue fw-lighter fs_16 text_grey mw_596"
+                                    class="accordion-collapse collapse show ff_neue fw-lighter fs_16 text_grey mw_596"
                                     data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Yes, our mobile app is available to premier and premier plus subscribers, allowing you to manage your business on the go.
                                     </div>
