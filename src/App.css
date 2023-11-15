@@ -12,6 +12,9 @@ body,
 html{
     overflow-x: hidden;
 }
+.mw_411{
+    max-width: 411px;
+}
 
 .ff_neue {
     font-family: 'Helvetica Neue', sans-serif;
