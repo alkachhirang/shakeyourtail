@@ -8,6 +8,10 @@
     text-decoration: none !important;
     list-style-type: none !important;
 }
+body,
+html{
+    overflow-x: hidden;
+}
 
 .ff_neue {
     font-family: 'Helvetica Neue', sans-serif;
