@@ -47,7 +47,7 @@ function Downloadapp() {
         ],
     };
     return (
-        <div id='aboutus' className='download_bg_img download_bg-img pt_250 pt_70'>
+        <div className='download_bg_img download_bg-img pt_250 pt_70'>
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={6} data-aos="fade-right">
@@ -62,7 +62,7 @@ function Downloadapp() {
                 </Row>
             </Container>
 
-            <Container className='py_download'>
+            <Container id='aboutus' className='py_download'>
                 <h4 className='ff_roboto fw-medium fs_48 text-white text-center m-0' data-aos="fade-down">About Us</h4>
                 <div className='d-flex justify-content-center align-items center' data-aos="fade-down">
                     <p className='ff_neue fs_16 fw-lighter text-white mw_775 text-center pb-lg-5 pb-4'> <span className="
