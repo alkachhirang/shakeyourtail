@@ -1,5 +1,6 @@
 import './App.css';
-
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Customerexperience from './components/Customerexperience';
 import Downloadapp from './components/Downloadapp';
 import Header from "./components/Header";
@@ -14,8 +15,7 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Howitworks from './components/Howitworks';
 import BackToTop from './assets/images/png/BackToTop.png';
-
-
+import { Preloader } from './components/Iconimg';
 function App() {
   useEffect(() => {
     AOS.init(
@@ -39,20 +39,37 @@ function App() {
       }
     });
   }, []);
+  const [screenLoading, setScreenLoading] = useState(false);
+
+  useEffect(() => {
+    setScreenLoading(true);
+    setTimeout(() => {
+      setScreenLoading(false);
+    }, 2500);
+  }, []);
   return (
     <div>
-      <Header />
-      <Mainfeatures />
-      <Customerexperience />
-      <Howitworks />
-      <Pricing />
-      <Downloadapp />
-      <Testimonials />
-      <Faq />
-      <Footer />
-      <div>
-        <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "position_fix" :"d-none"} />
-      </div>
+      {screenLoading ? (
+        <Preloader />
+      ) : (
+        <BrowserRouter>
+          <>
+            <Header />
+            <Mainfeatures />
+            <Customerexperience />
+            <Howitworks />
+            <Pricing />
+            <Downloadapp />
+            <Testimonials />
+            <Faq />
+            <Footer />
+            <div>
+              <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "position_fix" : "d-none"} />
+            </div>
+          </>
+        </BrowserRouter>
+      )}
+
     </div>
   );
 }

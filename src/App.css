@@ -360,6 +360,9 @@ html {
     padding-left: 12px;
     padding-right: 12px;
 }
+.mw_100{
+    max-width: 100px;
+}
 
 /*-------------------------- Dowmload-app-----------------------*/
 .download_bg-img {
@@ -664,6 +667,37 @@ html {
     border-radius: 8px;
     background: var(--ffffff, #FFF);
     box-shadow: 0px 10px 32px 0px rgba(91, 149, 224, 0.13);
+}
+.checkbox-label {
+    background-color: #5B95E0;
+    width: 68.001px;
+    height: 37.47px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid #5B95E0; */
+    transition: all .3s linear;
+}
+
+.checkbox-label .ball {
+    background-color: #fff;
+    Width: 30.49px;
+    Height: 30.49px;
+    position: absolute;
+    left: 3.59px;
+    top: 3.59px;
+    bottom: 3.59px;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+
+.checkbox:checked+.checkbox-label .ball {
+    transform: translateX(98%);
+    transition: all .3s linear;
 }
 
 .fs_13 {

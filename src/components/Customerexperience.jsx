@@ -70,7 +70,7 @@ function Customerexperience() {
         </Row>
       </Container>
 
-      <Container className='py_feature'>
+      <Container id='Features' className='py_feature'>
         <h4 className='ff_roboto fs_48 fw-medium text-center text-white m-0 pb-1' data-aos="fade-down">Features</h4>
         <div className='d-flex justify-content-center align-items-center pt-2 pb-5' data-aos="fade-down">
           <p className='ff_neue fw-lighter fs_16 text-white text-center m-0 mw_555'>ShakeYourTail provides your business with the following key features to run an successful dog grooming business.</p>

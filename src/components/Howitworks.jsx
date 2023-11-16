@@ -13,7 +13,7 @@ import { Done } from '../components/Iconimg';
 function Howitworks() {
     return (
         <div>
-            <div className="py_work">
+            <div id='howitworks' className="py_work">
                 <Container>
                     <h4 className="fs_48 text-black ff_roboto fw-medium lh_111 text-lg-start text-center">
                         How It Work

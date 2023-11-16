@@ -8,7 +8,7 @@ import Footerwave from '../assets/images/png/footer-wave.png';
 
 function Faq() {
     return (
-        <div className='position-relative pb_faq'>
+        <div id='FAQs' className='position-relative pb_faq'>
             <img src={Footerwave} alt="Footerwave" className='w-100 position-absolute bottom-0 end-0' />
             <Container>
                 <h4 className='fs_48 fw-medium ff_roboto text-black m-0 pb-4 text-lg-start text-center'>FAQ’s</h4>

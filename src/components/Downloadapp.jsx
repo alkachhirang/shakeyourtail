@@ -47,7 +47,7 @@ function Downloadapp() {
         ],
     };
     return (
-        <div className='download_bg_img download_bg-img pt_250 pt_70'>
+        <div id='aboutus' className='download_bg_img download_bg-img pt_250 pt_70'>
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={6} data-aos="fade-right">

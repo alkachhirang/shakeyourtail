@@ -11,7 +11,12 @@ function Pricing() {
                 <p className='mb-0 ff_neue fs_16 fw-light lh-160 text-center text-black mw-509 pt-2' data-aos="fade-down">Our Subscriptions, simple, flexible and designed for your business needs.</p>
                 <div className='d-flex align-items-center justify-content-center gap-3 pt-3 card-padd' data-aos="fade-down">
                     <p className='mb-0 ff_roboto fs_4md fw-bold text_blue5'>£ GBP</p>
-                    <Togglebtn />
+                    <div>
+                        <input type="checkbox" className="checkbox" id="checkbox" hidden />
+                        <label htmlFor="checkbox" className="checkbox-label">
+                            <span className="ball"></span>
+                        </label>
+                    </div>
                     <p className='mb-0 ff_roboto fs_4md fw-normal text-black op_07'>$ USD</p>
                 </div>
                 <Row className='justify-content-center'>
