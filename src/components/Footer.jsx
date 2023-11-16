@@ -40,20 +40,20 @@ function Footer() {
                             <Col lg={4} className='col-6'>
                                 <ul className='d-flex gap-2 flex-column p-0'>
                                     <li><a href='' className='ff_neue fw-medium fs_16 text-white'>Important Links</a></li>
-                                    <li><a href='#aboutus' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>About Us</a></li>
-                                    <li><a href='#Features' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Features</a></li>
-                                    <li><a href='#pricing' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Pricing</a></li>
-                                    <li><a href='#howitworks' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>How It Work</a></li>
-                                    <li><a href='#features' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>New Features</a></li>
+                                    <li><a href='#aboutus' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>About Us</a></li>
+                                    <li><a href='#Features' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Features</a></li>
+                                    <li><a href='#pricing' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Pricing</a></li>
+                                    <li><a href='#howitworks' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>How It Work</a></li>
+                                    <li><a href='#features' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>New Features</a></li>
                                 </ul>
                             </Col>
                             <Col lg={4} className=' col-6'>
                                 <ul className='d-flex gap-2 flex-column p-0'>
                                     <li><a href=''className='ff_neue fw-medium fs_16 text-white'>Other Links</a></li>
-                                    <li><a href='#freetrial' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative nav_link'>Testimonials</a></li>
-                                    <li><a href='#Features' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Features</a></li>
-                                    <li><a href='#FAQs' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>FAQs</a></li>
-                                    <li><a href='#ContactUs' onClick={() => setshow(!show)} className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Contact Us</a></li>
+                                    <li><a href='#freetrial' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative nav_link'>Testimonials</a></li>
+                                    <li><a href='#Features' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Features</a></li>
+                                    <li><a href='#FAQs' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>FAQs</a></li>
+                                    <li><a href='#ContactUs' className='ff_neue fw-lighter fs_16 text-white opacity_8 position-relative  nav_link'>Contact Us</a></li>
                                 </ul>
                             </Col>
                         </div>

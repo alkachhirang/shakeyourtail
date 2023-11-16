@@ -67,7 +67,8 @@ function App() {
               <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "position_fix" : "d-none"} />
             </div>
           </>
-        </BrowserRouter>
+          </BrowserRouter>
+          
       )}
 
     </div>
